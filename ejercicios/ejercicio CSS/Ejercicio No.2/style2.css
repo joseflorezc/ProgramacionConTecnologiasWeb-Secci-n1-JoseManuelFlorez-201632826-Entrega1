@@ -1,0 +1,22 @@
+.texto-rojo{
+    color:red;
+}
+
+.texto-azul{
+    color: blue;
+}
+
+.alineado{
+    text-align: center;
+}
+
+.texto-naranja{
+    color: orange
+
+}
+
+.centrado-azul-negrilla{
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}

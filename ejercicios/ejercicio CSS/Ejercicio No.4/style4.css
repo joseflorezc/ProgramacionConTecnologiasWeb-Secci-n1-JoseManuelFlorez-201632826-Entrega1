@@ -1,0 +1,30 @@
+input[name=Name]{
+    margin-bottom: 10px;
+    width: 150px;
+    border-color: ghostwhite;
+    background: greenyellow;
+}
+
+input[type=button]
+{
+    background-color: ghostwhite;
+   border: groove;
+    border-radius: 6px;
+}
+
+label[for=visitante]
+{
+    font-size:large;
+    font-weight: bolder;
+    color:orangered;
+}
+
+label[for=familiar]
+{
+    font-weight: bold;
+}
+
+label[for=externo]
+{
+    font-weight: bold;
+}

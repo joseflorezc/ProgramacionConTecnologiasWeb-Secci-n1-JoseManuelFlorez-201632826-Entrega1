@@ -1,0 +1,22 @@
+.texto-rojo{
+    color:red;
+}
+
+.texto-azul{
+    color: blue;
+}
+
+.alineado{
+    text-align: center;
+}
+
+.texto-naranja{
+    color: orange
+}
+
+h2[id=encabezado]{
+    color: darkblue;
+
+    background: coral;
+
+}

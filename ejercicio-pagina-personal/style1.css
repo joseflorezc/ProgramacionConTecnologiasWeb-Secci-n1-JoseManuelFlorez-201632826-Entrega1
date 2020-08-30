@@ -11,17 +11,12 @@
 .alineado {
   text-align: center;
 }
-h5[id="letraRainbow"] {
-  color: red;
-}
+h5[id="letraRainbow"],
 p[id="rainbow"] {
   color: red;
 }
 
-h5[id="nadar"] {
-  color: black;
-}
-
+h5[id="nadando"],
 p[id="nadar"] {
   color: black;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<!-- Define the webpage language -->
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -56,9 +57,10 @@
           </ul>
         </div>
       </nav>
-
-      <main role="main">
-        <!-------------------- Contenido de mi vida------------->
+      <!-- main role unnecessary (Deleted) -->
+      <main>
+        <!-- Comments should only have 2 hyphens at the beggining -->
+        <!-- ----------------- Contenido de mi vida ----------- -->
 
         <div class="accordion py-3" id="accordionExample">
           <div class="card">
@@ -87,10 +89,11 @@
               <div class="card-body mx-auto">
                 <div class="card-deck">
                   <div class="card">
+                    <!-- height attribute should have a value oc "XXXpx" not "XXX px" -->
                     <img
                       src="./Assets/GMKG5493.JPG"
                       class="card-img-top"
-                      height="300 px"
+                      height="300px"
                     />
                     <div class="card-body">
                       <h5 class="card-title">The dog!</h5>
@@ -170,8 +173,8 @@
               </div>
             </div>
           </div>
-
-          <!--------------- Proyectos  -------------------->
+          <!-- Comments should only have 2 hyphens at the beggining -->
+          <!-- ------------- Proyectos  ------------------ -->
 
           <div class="card">
             <div class="card-header" id="headingTwo">
@@ -204,7 +207,8 @@
                       >click here if you want to know which one</a
                     >
                   </li>
-                  <li>ACM Student Chapter at Universidad de los Andes | Member</br>
+                  <!-- br don't have an end tag -->
+                  <li>ACM Student Chapter at Universidad de los Andes | Member<br>
                     - learned new technologies to improve skills not included in the university's curriculum.</li>
                 </ol>
               </div>
@@ -212,8 +216,8 @@
           </div>
 
 
-
-            <!--------------- Hobbies  -------------------->
+            <!-- Comments should only have 2 hyphens at the beggining -->
+            <!-- ------------- Hobbies  ------------------ -->
           <div class="card">
             <div class="card-header" id="headingThree">
               <h2 class="mb-0">
@@ -259,10 +263,11 @@
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active" data-interval="100000">
+                      <!-- Image missing the alt attribute -->
                       <img
                         src="./Assets/fallguys.jpg"
                         class="d-block w-100"
-                        
+                        alt="correction-alt-1"
                       />
                       <div class="carousel-caption d-none d-md-block">
                         <h5>Fall Guys</h5>
@@ -270,7 +275,8 @@
                       </div>
                     </div>
                     <div class="carousel-item" data-interval="100000">
-                      <img src="./Assets/rainbow.jfif" class="d-block w-100"  />
+                      <!-- Image missing the alt attribute -->
+                      <img src="./Assets/rainbow.jfif" class="d-block w-100" alt="correction-alt-2"/>
                       <div class="carousel-caption d-none d-md-block">
                         <h5 id="letraRainbow">Rainbow six siege</h5>
                         <p id="rainbow">
@@ -279,10 +285,11 @@
                       </div>
                     </div>
                     <div class="carousel-item" data-interval="100000">
-                      <img src="./Assets/natacion.jpg" class="d-block w-100"  />
+                      <img src="./Assets/natacion.jpg" class="d-block w-100"  alt="correction-alt-3"/>
                       <div class="carousel-caption d-none d-md-block">
+                        <!-- Id duplicated 'nadar' -->
                         <h5 id="nadar">Swimming</h5>
-                        <p id="nadar">
+                        <p id="nadar-correction">
                           My dream is to learn every style :3
                         </p>
                       </div>
@@ -316,8 +323,8 @@
               </div>
             </div>
           </div>
-
-            <!--------------- Educación  -------------------->
+            <!-- Comments should only have 2 hyphens at the beggining -->
+            <!-- ------------- Educación  ------------------ -->
           <div class="card">
             <div class="card-header" id="headingFour">
               <h2 class="mb-0">
@@ -363,9 +370,9 @@
                 <div class="collapse" id="universidad">
                   <div class="card card-body">
                     <h2>Univeristy</h2>
-
-                    Systems and Computing Engineering</br>
-                    Minor Chemical Engineering | Universidad de Los Andes</br>
+                    <!-- br attribute doesn't have an ending tag -->
+                    Systems and Computing Engineering<br>
+                    Minor Chemical Engineering | Universidad de Los Andes<br>
                     Intended Graduation: April 2021
                      </div>
                 </div>
@@ -380,8 +387,9 @@
 
     </div>
     <footer class="container-fluid py-4 bg-dark display-5 text-light">
+      <!-- Missing attribute 'alt' on image -->
       <p class="px-auto"> Phone: 3114412464 &nbsp; | &nbsp; 
-        Instagram: <a href="https://www.instagram.com/nachoflorez1228/"><img src="./Assets/nachoflorez1228_nametag.png" width="50"></a> 
+        Instagram: <a href="https://www.instagram.com/nachoflorez1228/"><img src="./Assets/nachoflorez1228_nametag.png" width="50" alt="correction-4"></a> 
         &nbsp; | &nbsp; Code: 201632826 &nbsp; | &nbsp; Address: calle 166 # 9 45 - Bogotá DC, Colombia &nbsp; | &nbsp; 
         email: jm.florezc@uniandes.edu.co &nbsp; | &nbsp; 
         github.com/joseflorezc

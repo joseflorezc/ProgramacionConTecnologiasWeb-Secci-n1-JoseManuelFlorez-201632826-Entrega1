@@ -1,0 +1,31 @@
+div[id="footer"] {
+  background-color: #180d01;
+  color: white;
+}
+
+div[id="left-menu"] {
+  background-color: orange;
+}
+
+div[id="top-menu"] {
+  background-color: sienna;
+}
+div[id="banner"] {
+  background-color: #180d01;
+  color: white;
+  /* height: 200px/880px; */
+}
+/* div[id="main"] {
+  height: 580px/880px;
+}
+div[id="footer"] {
+  height: 100px/880px;
+} */
+
+div[id="Photo-roja"] {
+  background-color: rgb(255, 0, 106);
+}
+
+div[id="Photo-azul"] {
+  background-color: lightseagreen;
+}

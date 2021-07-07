@@ -25,3 +25,9 @@ h5[id="nadar"] {
 p[id="nadar"] {
   color: black;
 }
+
+.content-header {
+  padding: 30px 0;
+  border-bottom: 1px ridge;
+  border-color: #1b7993;
+}
